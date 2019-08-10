@@ -1,0 +1,7 @@
+- オレオレ証明書の仕組み
+- nginx.confの設定内容
+- opensslコマンドで作るファイルの意味
+- `chmod 755 -R /var`って`chmod -R 755 /var`じゃだめなんかな？
+- Dockerfileの`EXPOSE 443`
+- Dockerfileの`CMD`のとこ
+- `docker build --tag webapp .`このコマンドの意味。

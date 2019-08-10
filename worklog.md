@@ -13,7 +13,7 @@ docker run -d -p 443:443 -p 80:80 webapp
 2048ビットの秘密鍵作成
 openssl genrsa 2048 > server.key
 
-CSRを作成
+秘密鍵からCSRを作成
 openssl req -new -key server.key > server.csr
 
 CSRから自己署名証明書を作成
